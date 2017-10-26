@@ -63,6 +63,11 @@
 
 }
 
+#filters li {
+  list-style: none;
+  display: inline-block;
+}
+
 .byline {
   font-size: 1.2em;
   color: #777;
