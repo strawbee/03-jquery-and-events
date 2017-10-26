@@ -94,11 +94,7 @@ articleView.setTeasers = function() {
     $('.read-on').text('Read more →');
     $('.read-on.expanded').text('← Read less');
   });
-
-
-
 };
-
 // DONE: Call all of the above functions, once we are sure the DOM is ready.
 $(document).ready(function() {
   articleView.populateFilters();
